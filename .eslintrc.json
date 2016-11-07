@@ -1,0 +1,10 @@
+{
+  "extends": "eslint-config-mastertinner-nodejs",
+  "installedESLint": true,
+  "rules": {
+    "linebreak-style": "off",
+    "comma-dangle": "off",
+    "prefer-template": "off",
+    "no-console": "off"
+  }
+}

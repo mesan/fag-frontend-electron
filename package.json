@@ -7,6 +7,10 @@
   },
   "devDependencies": {
     "electron-prebuilt": "^0.30.3",
+    "eslint": "^3.9.1",
+    "eslint-config-mastertinner-nodejs": ""
+  },
+  "dependencies": {
     "exec": "^0.2.1"
   }
 }

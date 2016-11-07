@@ -1,17 +1,17 @@
 'use strict';
 
-var app = require('app');
-var BrowserWindow = require('browser-window');
+const app = require('app');
+const BrowserWindow = require('browser-window');
 
-var mainWindow = null;
+let mainWindow = null;
 
-app.on('ready', function() {
+app.on('ready', function () {
     mainWindow = new BrowserWindow({
         height: 600,
         width: 800
     });
 
-    mainWindow.loadUrl('file://' + __dirname + '/app/index.html');
+    mainWindow.loadUrl(['file:/', __dirname, 'app/index.html'].join('/'));
     mainWindow.webContents.openDevTools();
 
 });
